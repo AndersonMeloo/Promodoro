@@ -1,0 +1,16 @@
+Usar Sass
+
+npm create vite@latest
+
+npm i
+
+npm install -D sass
+
+Organizar pastas
+
+projeto->src->assets->styles>global.scss|theme.scss
+
+src->componets->Pastas desejadas->Arquivo.module.scss
+
+src->App.tsx
+src->Main.tsx

@@ -1,0 +1,27 @@
+@use '../../assets/sass/theme.scss' as *;
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    padding-top: 3rem;
+}
+
+.logoLink {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: $link-color;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+        filter: brightness(50%);
+    }
+}

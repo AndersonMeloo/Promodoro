@@ -8,8 +8,8 @@ export function Logo() {
             <div className={sass.logo}>
                 <a href="#" className={sass.logoLink}>
                     <TimerIcon size={64} />
+                    <span>Chronos</span>
                 </a>
-                <span>Chronos</span>
             </div>
         </>
     )

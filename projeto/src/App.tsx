@@ -2,6 +2,7 @@ import './assets/sass/global.scss'
 import './assets/sass/theme.scss'
 import { Container } from './components/Container'
 import { Heading } from './components/Heading'
+import { Logo } from './components/Logo'
 
 
 export function App() {
@@ -10,7 +11,7 @@ export function App() {
 
     <>
       <Container>
-        <Heading>Logo</Heading>
+        <Logo />
       </Container>
 
       <Container>

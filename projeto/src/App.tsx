@@ -1,9 +1,10 @@
 import { Container } from './components/Container'
-import { Heading } from './components/Heading'
 import { Logo } from './components/Logo'
 
 import './assets/sass/global.scss'
 import './assets/sass/theme.scss'
+import { Menu } from './components/Menu'
+import { CountDown } from './components/CountDown'
 
 
 export function App() {
@@ -16,7 +17,11 @@ export function App() {
       </Container>
 
       <Container>
-        <Heading>Menu</Heading>
+        <Menu />
+      </Container>
+
+      <Container>
+        <CountDown />
       </Container>
     </>
   )

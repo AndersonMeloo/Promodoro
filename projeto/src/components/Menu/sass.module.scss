@@ -1,0 +1,23 @@
+@use '../../assets/sass/theme.scss' as *;
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.menuLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $link-color;
+    color: $gray-900;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+        filter: brightness(70%);
+    }
+}

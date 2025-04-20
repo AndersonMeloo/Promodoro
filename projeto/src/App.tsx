@@ -1,9 +1,9 @@
-import { Container } from './components/Container'
-import { Logo } from './components/Logo'
-
 import './assets/sass/global.scss'
 import './assets/sass/theme.scss'
+
 import { Menu } from './components/Menu'
+import { Container } from './components/Container'
+import { Logo } from './components/Logo'
 import { CountDown } from './components/CountDown'
 
 

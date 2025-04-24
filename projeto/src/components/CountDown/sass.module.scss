@@ -1,7 +1,7 @@
 @use '../../assets/sass/theme.scss' as *;
 
 .container {
-       font-size: clamp(6rem, 20vw, 14rem);
+    font-size: clamp(6rem, 20vw, 14rem);
     font-weight: bold;
     text-align: center;
     line-height: 1.3;

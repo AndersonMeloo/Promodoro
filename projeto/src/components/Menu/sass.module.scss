@@ -15,9 +15,10 @@
     color: $gray-900;
     padding: 1rem;
     border-radius: 1rem;
-    transition: all .4s ease-in-out;
+    transition: transform all .4s ease-in-out;
 
     &:hover {
+        transform: scale(1.1);
         filter: brightness(70%);
     }
 }

@@ -1,0 +1,36 @@
+@use '../../assets/sass/theme.scss' as *;
+
+button {
+    border: none;
+    background-color: $link-color;
+    color: $text-over-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18rem;
+    padding: .8rem;
+    border-radius: .8rem;
+    margin: 2rem 0;
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: $link-hover;
+    }
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.green {
+    background-color: $link-color;
+    color: $text-over-primary;
+}
+
+.red {
+    background-color: $error;
+    color: $gray-100;
+}

@@ -1,15 +1,16 @@
 import './assets/sass/global.scss'
 import './assets/sass/theme.scss'
 
+import { PlayCircleIcon } from 'lucide-react'
+
 import { Menu } from './components/Menu'
 import { Container } from './components/Container'
 import { Logo } from './components/Logo'
 import { CountDown } from './components/CountDown'
 import DefaultInput from './components/DefaultInput'
 import Cycles from './components/Cycles'
-import Footer from './components/Footer'
-import { PlayCircleIcon } from 'lucide-react'
 import DefaultButton from './components/DefaultButton'
+import Footer from './components/Footer'
 
 export function App() {
 
@@ -29,7 +30,6 @@ export function App() {
       </Container>
 
       <Container>
-
 
         <form action="" className='form'>
 

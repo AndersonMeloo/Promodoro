@@ -11,8 +11,8 @@ html {
 }
 
 body {
-    background-color: $gray-900;
-    color: $text-default;
+    background-color: var(--gray-900);
+    color: var(--text-default);
 }
 
 .form {

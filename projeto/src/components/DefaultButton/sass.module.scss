@@ -2,8 +2,8 @@
 
 button {
     border: none;
-    background-color: $link-color;
-    color: $text-over-primary;
+    background-color: var(--link-color);
+    color: var(--text-over-primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@ button {
 
     &:hover {
         transform: scale(1.1);
-        background-color: $link-hover;
+        background-color: var(--link-hover);
     }
 
     svg {
@@ -26,11 +26,11 @@ button {
 }
 
 .green {
-    background-color: $link-color;
-    color: $text-over-primary;
+    background-color: var(--link-color);
+    color: var(--text-over-primary);
 }
 
 .red {
-    background-color: $error;
-    color: $gray-100;
+    background-color: var(--error);
+    color: var(--gray-100);
 }

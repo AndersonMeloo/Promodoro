@@ -11,8 +11,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: $link-color;
-    color: $gray-900;
+    background-color: var(--link-color);
+    color: var(--gray-900);
     padding: 1rem;
     border-radius: 1rem;
     transition: transform all .4s ease-in-out;

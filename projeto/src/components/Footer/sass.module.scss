@@ -11,7 +11,7 @@ form {
 
 a {
     font-size: 1.2rem;
-    color: $text-muted;
+    color: var(--text-muted);
     text-decoration: none;
     letter-spacing: 1px;
     transition: .3s ease-in-out;

@@ -8,9 +8,9 @@
     border-radius: .8rem;
     font-size: 1.2rem;
     padding: .8rem;
-    color: $gray-100;
+    color: var(--gray-100);
     outline: none;
-    border-bottom: 2px solid $primary-light;
+    border-bottom: 2px solid var(--primary-light);
     transition: transform .3s ease-in-out;
     display: flex;
     justify-content: center;
@@ -19,11 +19,11 @@
     &::placeholder {
         font-size: 1.4rem;
         font-style: italic;
-        color: $gray-500;
+        color: var(--gray-500);
     }
 
     &:focus {
-        border: 2px solid $primary-light;
+        border: 2px solid var(--primary-light);
         transition: all .3s ease-in-out;
     }
 
@@ -32,7 +32,7 @@
     }
 
     &:disabled {
-        border-bottom: 2px solid $disabled;
-        color: $text-disabled;
+        border-bottom: 2px solid var(--disabled);
+        color: var(--text-disabled);
     }
 }

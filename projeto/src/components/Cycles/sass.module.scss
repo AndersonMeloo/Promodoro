@@ -16,18 +16,18 @@
 .cycleDot {
     width: 2rem;
     height: 2rem;
-    background-color: $link-hover;
+    background-color: var(--link-hover);
     border-radius: 50%;
 }
 
 .workTime {
-    background-color: $warning;
+    background-color: var(--warning);
 }
 
 .shortBreakTime {
-    background-color: $link-color;
+    background-color: var(--link-color);
 }
 
 .longBreakTime {
-    background-color: $info;
+    background-color: var(--info);
 }
